@@ -49,6 +49,7 @@ The Gray-Scott reaction-diffusion system is a mathematical model used to describ
 The model is governed by a set of partial differential equations (PDEs) that describe the evolution of concentrations of A and B over time:
 
 ∂A/∂t = D_A * ΔA - A * B^2 + f * (1 - A)
+
 ∂B/∂t = D_B * ΔB + A * B^2 - (k + f) * B
 
 Here, A and B represent the concentrations of the chemical species, D_A and D_B are the diffusion coefficients, Δ denotes the Laplacian operator (representing the spatial diffusion), f and k are the feed and kill rates, and t represents time.
